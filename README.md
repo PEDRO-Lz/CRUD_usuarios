@@ -15,6 +15,7 @@ Instale as dependências
 Crie um arquivo .env e adicione a SUA string de conexão do MongoDB e a SUA chave JWT
 
 `DATABASE_URL="mongodb+srv://<usuario>:<senha>@cluster.mongodb.net/meuBanco?retryWrites=true&w=majority"`
+
 `JWT_SECRET="<segredo>"`
 
 Gere o Prisma Client
